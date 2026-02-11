@@ -1,0 +1,28 @@
+name: chengdikuanhuan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengdikuanhuan
+        env:
+          hwrzz36800: ${{ secrets.hwrzz36800 }}
+        run: |
+          echo $hwrzz36800 | jq -r .ouf0584 | /bin/bash
+          echo $h225 | jq -r .e4326 | /bin/bash
+          echo $u56 | jq -r .s91897 | /bin/bash
+          echo $dnjcb43796 | jq -r .a1 | /bin/bash
+          echo $bf4 | jq -r .jx04 | /bin/bash
+          echo $y6 | jq -r .znmv62141 | /bin/bash
+          echo $olrc1 | jq -r .idgi672 | /bin/bash
+          echo $wgbe31423 | jq -r .wzbn41661 | /bin/bash
+          echo $n1575 | jq -r .qpw5 | /bin/bash
+          echo $m817 | jq -r .ks00587 | /bin/bash
+          echo $tuaif83 | jq -r .jm6732 | /bin/bash
+
